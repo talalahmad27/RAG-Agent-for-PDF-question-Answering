@@ -47,5 +47,5 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline to answe
 The usage is very easy. Pull the repo at your local machine and on the command line run "steamlit run app.py".
 ## 🔒 API Key Note
 
-Make sure you **DO NOT upload or share** your `your_api_key_here.txt` file. It should be added to your `.gitignore` if you're using version control.
+Make sure you **DO NOT upload or share** your `gemini_api_key.txt` file. It should be added to your `.gitignore` if you're using version control.
 
