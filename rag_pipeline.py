@@ -36,7 +36,6 @@ def generate_answer_with_gemini(question, docs):
     # Setting up API Key 
     with open(os.path.join(script_dir, "your_api_key_here.txt"), "r") as f:
         GOOGLE_API_KEY = f.read().strip()
-    GOOGLE_API_KEY = "AIzaSyDMmwyh9gYvQdnWCmDBH0z_abXdGTiNwZQ"
     # Set up the prompt template
     prompt_template = PromptTemplate(
         input_variables=["context", "question"],
