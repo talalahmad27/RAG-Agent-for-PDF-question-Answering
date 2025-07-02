@@ -44,23 +44,7 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline to answe
 
 ## ▶️ Usage
 
-```python
-from pdf_rag import load_and_split_pdfs, create_vectorstore, get_relevant_chunks, generate_answer_with_gemini
-
-# Load and split documents
-chunks = load_and_split_pdfs(["sample.pdf"])
-
-# Create vector store
-db = create_vectorstore(chunks)
-
-# Retrieve relevant chunks
-docs = get_relevant_chunks(db, "What is the summary of the report?")
-
-# Generate answer using Gemini
-answer = generate_answer_with_gemini("What is the summary of the report?", docs)
-print(answer)
-```
-
+The usage is very easy. Pull the repo at your local machine and on the command line run "steamlit run app.py".
 ## 🔒 API Key Note
 
 Make sure you **DO NOT upload or share** your `your_api_key_here.txt` file. It should be added to your `.gitignore` if you're using version control.
